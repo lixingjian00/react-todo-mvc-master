@@ -4,7 +4,7 @@ import axios from 'axios'
 import React from 'react'
 import './App.css'
 
-// 1. 找到对应的组件，把页面搭起来--搜索框+table
+// 1. 找到对应的组件，把页面搭起来--搜索框+table.
 // 2. 渲染Table 发送请求(componentDidMount)，拿到数据，交给list(this.setState)
 // 3. 删除功能 点哪个就用哪个id 调用删除接口 重新拉取列表
 // 4. 搜索功能 拿到关键词，调用接口获取列表数据
